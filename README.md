@@ -1,23 +1,23 @@
-# Media-Player
-    
-    A versatile Android media application designed to provide a seamless video playback experience with a clean, user-centric interface.
-    
-    ## 🚀 Features
-    * **High-Quality Playback:** Optimised for smooth video rendering and playback controls.
-    * **Modern UI Components:** Built using XML layout resources and Material Design principles for a professional look and feel.
-    * **Resource Management:** Efficiently handles media assets, including local MP4 files.
-    * **Lifecycle Awareness:** Properly manages activity states to ensure playback stability during device rotations or app switching.
-    
-    ## 🛠 Tech Stack
-    * **Language:** [Kotlin](https://kotlinlang.org/) / Java
-    * **Platform:** Android SDK
-    * **UI Framework:** Android View System (XML)
-    * **Build System:** Gradle (Groovy/Kotlin DSL)
-    
-    ## 📖 Key Learnings
-    This project allowed me to dive deep into the **Android Manifest** configuration and activity intent filters. I gained hands-on experience managing raw resource folders and implementing specialised themes for a 'NoActionBar' immersive media experience.
-    
-    ## 📥 Installation
-    1. Clone the repository: `git clone https://github.com/bhavyadesai12/Media-Player.git`
-    2. Open the project in **Android Studio**.
-    3. Build and run on an Android device or emulator.
+# Android Media Player
+
+A sleek, functional media playback application developed for the Android platform, designed to provide a seamless audio experience.
+
+## 🚀 Features
+* **Playback Controls:** Fully functional Play, Pause, and Skip features with real-time state synchronization.
+* **Media Integration:** Utilizes Android's `MediaPlayer` API to handle audio streams and local files.
+* **Responsive UI:** Modern interface built with **Kotlin** and XML/Jetpack Compose, optimized for various screen sizes.
+* **Lifecycle Awareness:** Properly manages audio focus and resource cleanup to ensure battery efficiency.
+
+## 🛠 Tech Stack
+* **Language:** [Kotlin](https://kotlinlang.org/)
+* **Framework:** Android SDK
+* **API:** MediaPlayer API
+* **Tools:** Android Studio, Git
+
+## 📖 Key Learnings
+This project was pivotal in understanding **Background Services** and how Android handles long-running tasks. I learned how to manage system resources effectively, ensuring the app remains performant while playing high-quality audio.
+
+## 📥 Installation
+1. Clone the repository: `git clone https://github.com/bhavyadesai12/Media-Player.git`
+2. Open in **Android Studio**.
+3. Build and deploy to an Android device (API 24+).
